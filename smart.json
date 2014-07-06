@@ -1,6 +1,6 @@
 {
   "name": "segfault-handler",
-  "description": "Capture Meteor stack trace on SIGSEGV or SIGBUS",
+  "description": "Capture Meteor stack trace on SIGSEGV or SIGBUS signals",
   "homepage": "https://github.com/peerlibrary/meteor-segfault-handler",
   "author": "The PeerLibrary Project",
   "version": "0.1.0",
