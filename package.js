@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Capture node.js stack trace on SIGSEGV or SIGBUS"
+  summary: "Capture Meteor stack trace on SIGSEGV or SIGBUS"
 });
 
 Npm.depends({

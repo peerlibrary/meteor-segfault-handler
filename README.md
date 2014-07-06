@@ -1,7 +1,7 @@
 segfault-handler package
 ========================
 
-Meteor package for capturing node.js stack trace on `SIGSEGV` or `SIGBUS` signals and receiving a callback
+Meteor package for capturing Meteor stack trace on `SIGSEGV` or `SIGBUS` signals and receiving a callback
 when they occur. It is built upon [node-segfault-handler](https://github.com/ddopson/node-segfault-handler)
 node.js package.
 
