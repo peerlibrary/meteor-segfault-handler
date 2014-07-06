@@ -1,7 +1,7 @@
 segfault-handler package
 ========================
 
-Meteor package for capturing Meteor stack trace on `SIGSEGV` or `SIGBUS` signals and receiving a callback
+Meteor package for capturing Meteor stack trace on `SIGSEGV` and `SIGBUS` signals and receiving a callback
 when they occur. It is built upon [node-segfault-handler](https://github.com/ddopson/node-segfault-handler)
 node.js package.
 
@@ -10,7 +10,7 @@ the global scope.
 
 You can use `SegfaultHandler.registerHandler` to register a callback which receives `stack`, `signal`, and
 `address` arguments. You can use that callback to log the signal or in some other way handle the signal,
-but you should be careful that code is not too complex. When `SIGSEGV` or `SIGBUS` signals are received by
+but you should be careful that code is not too complex. When `SIGSEGV` or `SIGBUS` signal is received by
 your Meteor application it means that it did an illegal memory operation and its state is undefined.
 
 Server side only.
