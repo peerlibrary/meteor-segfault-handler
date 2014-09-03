@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'segfault-handler': "https://github.com/peerlibrary/node-segfault-handler/tarball/a9068c1b25d7713c8a349e826c1b8b8f23e1366a"
+  'segfault-handler': "https://github.com/peerlibrary/node-segfault-handler/tarball/4b35ca80ff7feec101f57d4ab33c0f1578377010"
 });
 
 Package.on_use(function (api) {
