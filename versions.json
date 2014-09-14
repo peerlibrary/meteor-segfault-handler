@@ -5,6 +5,10 @@
       "1.0.3"
     ],
     [
+      "peerlibrary:segfault-handler",
+      "0.1.4"
+    ],
+    [
       "underscore",
       "1.0.0"
     ]
