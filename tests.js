@@ -7,5 +7,5 @@ Tinytest.add('segfault-handler', function (test) {
   catch (e) {
   }
   test.isTrue(isDefined, "SegfaultHandler is not defined");
-  test.isTrue(Package['segfault-handler'].SegfaultHandler, "Package.segfault-handler.SegfaultHandler is not defined");
+  test.isTrue(Package['peerlibrary:segfault-handler'].SegfaultHandler, "Package.peerlibrary:segfault-handler.SegfaultHandler is not defined");
 });
