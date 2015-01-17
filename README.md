@@ -19,7 +19,7 @@ Installation
 ------------
 
 ```
-mrt add segfault-handler
+meteor add peerlibrary:segfault-handler
 ```
 
 Example
